@@ -2,11 +2,11 @@
 
 ## Part 2 - Hyperparameter optimization, model deployment and scoring with Watson Studio
 
-This Watson Studio labs continues working with the RNN developed in  [Part 1](https://github.com/justinmccoy/timeseries-rnn-lab-part1). It contains the steps and code to demonstrate support of deep learning experiments in Watson Machine Learning Service. It illustrates the use of  the  Watson Machine Learning Python API for getting data, experiment definition, hyper parameter optimization, model persistence, model deployment and scoring.
+This Watson Studio labs continues working with the RNN developed in  [Part 1](https://github.com/ibm-ai-education/timeseries-rnn-lab-part1). It contains the steps and code to demonstrate support of deep learning experiments in Watson Machine Learning Service. It illustrates the use of  the  Watson Machine Learning Python API for getting data, experiment definition, hyper parameter optimization, model persistence, model deployment and scoring.
 
 ## Setup
 
-**Note:** If you haven't done  the lab in [Part 1](https://github.com/justinmccoy/timeseries-rnn-lab-part1) then follow the following steps in the [setup instructions for Part 1](https://github.com/justinmccoy/timeseries-rnn-lab-part1#setup) before continuing:
+**Note:** If you haven't done  the lab in [Part 1](https://github.com/ibm-ai-education/timeseries-rnn-lab-part1) then follow the following steps in the [setup instructions for Part 1](https://github.com/ibm-ai-education/timeseries-rnn-lab-part1#setup) before continuing:
 
    i. Sign up for Watson Studio (if you haven't already)
 
@@ -82,10 +82,10 @@ Your code  will need access to Cloud Object Storage in this lab. An instance of 
 
 3.2 Scroll down to the *Notebooks* section and click on **New Notebook**
 
-3.3 Name the Notebook *My Time Series RNN Demo Part 2* . Select **From URL** and copy the following URL into the **Notebook URL** field
+3.3 Give the Notebook a name, for example: *OilPrediction RNN Demo Part 2* . Select **From URL** and copy the following URL into the **Notebook URL** field
 
 ```
-https://raw.githubusercontent.com/ibm-ai-education/timeseries-rnn-lab-part2/master/oilpricernnpart2.ipynb
+https://raw.githubusercontent.com/jrtorres/timeseries-rnn-lab-part2/master/oilpricernnpart2.ipynb
 ```
 
 3.4 Click on **Create Notebook**. After a few seconds the notebook should be loaded
